@@ -274,7 +274,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 
 .single-about-txt-2 h3 {
     font-size:18px;
-    color: #3c4258;
+    color: black;
     text-transform: initial;
     line-height: 1.8; 
     text-decoration: none;   
@@ -342,7 +342,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 /*.single-about-txt*/
 
 /*.single-about-img */
-.single-about-img{position: relative;box-shadow: 0 5px 20px rgba(14,25,80,.30);}
+.single-about-img{position: relative;box-shadow: 0 5px 20px rgba(207,185,145,.40);}
 
 
 .about-list-icon{
