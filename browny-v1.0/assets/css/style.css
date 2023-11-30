@@ -250,6 +250,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
     background:  #F7F7F7;
 
 }
+
 .about-content {padding-top: 50px;}
 /*.single-about-txt*/
 .single-about-txt h3 {
@@ -267,22 +268,24 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 }
 .single-about-txt p {
     font-size: 16px;
-    color: #999fb3;
+    color: #727275;
     padding: 5px 0 43px;
     /* border-bottom: 1px solid #999fb3; */
 }
 
 .single-about-txt-2 h3 {
     font-size:18px;
-    color: black;
+    color: #CFB991;
     text-transform: initial;
     line-height: 1.8; 
     text-decoration: none;   
 }
 
+
+
 .single-about-txt-2 p {
     font-size: 16px;
-    color: #999fb3;
+    color: #727275;
     padding: 10px 0 5px;
 }
 
@@ -293,7 +296,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 }
 
 .symlog-section h2{
-    color: #CFB991;
+    color: black;
 }
 
 .single-about-txt-3 h3 {
@@ -307,7 +310,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #d92cf9;}
 
 .single-about-txt-3 p {
     font-size: 16px;
-    color: black;
+    color: #727275;
     padding: 2px 0 33px;
     /* border-bottom: 1px solid #999fb3; */
 }
@@ -561,7 +564,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 .main-timeline .description {
     font-size: 15px;
-    color: #999fb3;
+    color: #727275;
     margin-top: 10px;
 }
 .main-timeline .timeline-content.right{
