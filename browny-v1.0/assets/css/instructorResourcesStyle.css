@@ -269,10 +269,10 @@ nav.navbar.bootsnav .navbar-toggle i{color: #CFB991;}
     text-decoration: underline;
     
 }
-.single-about-txt h3:hover {
+.single-about-txt h3 {
         color: #CFB991; /* Change the color to your desired color */
-        font-size: 19px;
-        transition: 150ms;
+        font-size: 23px;
+        text-decoration: none;
 }
 .single-about-txt p {
     font-size: 16px;
@@ -390,6 +390,14 @@ nav.navbar.bootsnav .navbar-toggle i{color: #CFB991;}
 }
 .about-list-icon ul li a i {
     margin-left: 6px;
+}
+
+.about p {
+    color:#43485c;
+    font-size: 18px;
+	font-family: 'accumin pro', sans-serif;
+    text-decoration: none;
+    padding: 20px
 }
 /*.ab-list-icon */
 
@@ -795,7 +803,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     border: 1px solid #b636ff;
     cursor:pointer;
     box-shadow: 0 5px 20px rgba(0,0,0,.2);
-     -webkit-transition: .5s; 
+    -webkit-transition: .5s; 
     -moz-transition:.5s; 
     -ms-transition:.5s; 
     -o-transition:.5s;
