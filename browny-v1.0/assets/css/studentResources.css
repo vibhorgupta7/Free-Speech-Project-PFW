@@ -12,11 +12,11 @@ font-family: 'Poppins', sans-serif;
 /*=========== TABLE OF CONTENTS ===========
 1.  General css (Reset code)
 2.  Header
-3.  Welcome-hero
+3.  Welcome
 4.  About me 
 5.  Education
 6.  Skill
-7.  Experience
+7.  steps
 8.  Profiles
 9.  Portfolio
 10. Clients
@@ -191,9 +191,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #CFB991;}
 
 
 /*-------------------------------------
-        3.  Welcome-hero
+        3.  Welcome
 --------------------------------------*/
-.welcome-hero{
+.welcome{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -203,7 +203,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #CFB991;}
     background-position: center;
     height:690px;
 }
-.welcome-hero:before{
+.welcome:before{
     position:absolute;
     content: " ";
     top:0;
@@ -410,9 +410,9 @@ nav.navbar.bootsnav .navbar-toggle i{color: #CFB991;}
 /*.education-horizontal-timeline*/
 .education-horizontal-timeline .col-sm-4 {padding:0 2px;}
 
-.single-horizontal-timeline .experience-time h3{text-transform: capitalize;}
-.single-horizontal-timeline .experience-time h3 span{text-transform:lowercase;}
-.single-horizontal-timeline .timeline-content h5 {margin: 15px 0;}
+.single-horizontal-timeline .steps-time h3{text-transform: capitalize;}
+.single-horizontal-timeline .steps-time h3 span{text-transform:lowercase;}
+.single-horizontal-timeline .steps-content h5 {margin: 15px 0;}
 .single-horizontal-timeline p {color: #999fb3;max-width: 335px;}
 
 /*.timeline-horizontal-border*/
@@ -507,31 +507,31 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 }
 
 /*-------------------------------------
-        7. Experience
+        7. steps
 -------------------------------------*/
-.experience {
+.steps {
     padding: 50px 0 100px;
     border-top: 3px solid #CFB991;
 }
-.experience-content {padding-top: 100px;}
+.steps-content {padding-top: 100px;}
 .single-timeline-box {margin-bottom: 75px;}
 
-/*experience-time*/
-.experience-time {
+/*steps-time*/
+.steps-time {
     position: relative;
 }
-.experience-time h2 {
+.steps-time h2 {
     font-weight: 600;
     color: #CFB991;
 }
-.experience-time h3 {
+.steps-time h3 {
     font-size: 16px;
     font-weight: 300;
     color: #CFB991;
     margin-top: 14px;
     text-transform: uppercase;
 }
-/*experience-time*/
+/*steps-time*/
 
 /*main-timeline*/
 .main-timeline{
@@ -551,7 +551,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     position: relative;
 }
 
-.timeline-content span>i, .experience-time span>i {
+.timeline-content span>i, .steps-time span>i {
     color: #CFB991;
     position: absolute;
     font-size: 10px;
@@ -589,7 +589,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     border-left:15px solid #fff;
 }
 
-.experience-time-responsive{display: none;}
+.steps-time-responsive{display: none;}
 /*-------------------------------------
         8. Profiles
 --------------------------------------*/
