@@ -1,30 +1,3 @@
-/*==================================
-* Author        : "ThemeSine"
-* Template Name :  Browny  HTML Template
-* Version       : 1.0
-==================================== */
-
-/*==================================
-font-family: 'Poppins', sans-serif;
-==================================== */
-
-
-/*=========== TABLE OF CONTENTS ===========
-1.  General css (Reset code)
-2.  Header
-3.  Welcome
-4.  About me 
-5.  Education
-6.  Skill
-7.  steps
-8.  Profiles
-9.  Portfolio
-10. Clients
-11. Contact
-
-/*-------------------------------------
-		1.General css (Reset code)
---------------------------------------*/
 *{
     padding: 0;
     margin: 0;
@@ -51,13 +24,13 @@ body{
 a,a:hover,a:active,a:focus {
 	display:inline-block;
 	text-decoration:none;
-	color: #6a708e;
+	color: black;
 	font-size:16px;
 	padding:0;
 }
 h1,h2,h3,h4,h5,h6 { 
 	margin: 0;
-	color:#43485c;
+	color:black;
     font-size: 20px;
 	font-family: 'accumin pro', sans-serif;
 	text-transform: capitalize;
@@ -65,11 +38,12 @@ h1,h2,h3,h4,h5,h6 {
 p {
 	margin: 0;
 	line-height:1.8;
-	color:#43485c;
+	color:black;
 	font-size:14px;
 	font-family: 'acumin pro', sans-serif;
 }
 img{border:none;max-width:100%; height:auto;}
+
 ul{
 	padding: 0;
     margin: 0 auto;
@@ -77,8 +51,8 @@ ul{
 }
 ul li {
 	list-style: none;
-	
 }
+
 select,input,textarea,button{box-shadow:none;outline:0!important;}
 button {background: transparent;border: 0;}
 
@@ -86,17 +60,9 @@ html,body{
     height: 100%;
 	position: relative;
 }
-[placeholder]:focus::-webkit-input-placeholder {
-  -webkit-transition: opacity 0.3s 0.3s ease; 
-  -moz-transition: opacity 0.3s 0.3s ease; 
-  -ms-transition: opacity 0.3s 0.3s ease; 
-  -o-transition: opacity 0.3s 0.3s ease; 
-  transition: opacity 0.3s 0.3s ease; 
-  opacity: 0;
-}
+
 
 .fix{position: relative;clear: both;}
-/*=============Style css=========*/
 
 /*-------------------------------------
         2. Header
@@ -107,7 +73,7 @@ html,body{
 }
 @media (min-width: 1024px){}
 nav.navbar.bootsnav.no-background {
-    background-color: #fff;
+    background-color: white;
     border: none;
 }
 
@@ -144,7 +110,7 @@ nav.navbar.bootsnav ul.nav > li > a {
     -ms-transition: 0.3s linear; 
     -o-transition: 0.3s linear; 
     transition: 0.3s linear;
-    color: #727275;
+    color: black;
 }
 nav.navbar.bootsnav ul.nav > li > a {padding: 35px 9px;}
 nav.navbar.bootsnav ul.nav > li > a:hover,nav.navbar.bootsnav ul.nav > li > a:focus,nav.navbar.bootsnav ul.nav > li.active>a{color: #CFB991;}
@@ -156,7 +122,7 @@ nav.navbar.bootsnav ul.nav > li.dropdown span {
     font-size: 5px;
     margin-left: 15px;
 }
-.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a {color:#6a708e;}
+.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a {color:black;}
 .sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:hover,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li > a:focus,.sticky-wrapper.is-sticky nav.navbar.bootsnav ul.nav > li.active>a{color: #CFB991;}
 /*.nav li*/
 
@@ -215,15 +181,15 @@ nav.navbar.bootsnav .navbar-toggle i{color: #CFB991;}
 
 /*.header-text-area*/
 .header-text h2 {
-    color: #fff;
+    color: white;
     font-size: 54px;
     font-weight: 700;
     text-transform: uppercase;
     line-height: 1.5;
 }
-.header-text h2 span {color: #d92cf9;}
+.header-text h2 span {color: white;}
 .header-text p {
-    color: #fff;
+    color: white;
     font-size: 40px;
     font-weight: 300;
     text-transform: uppercase;
@@ -263,7 +229,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #CFB991;}
 /*.single-about-txt*/
 .single-quizz-txt h3 {
     font-size:18px;
-    color: #3c4258;
+    color: black;
     text-transform: initial;
     line-height: 1.8;
     text-decoration: underline;
@@ -276,19 +242,19 @@ nav.navbar.bootsnav .navbar-toggle i{color: #CFB991;}
 }
 .single-quizz-txt p {
     font-size: 16px;
-    color: #727275;
+    color: #727275dd;
     padding: 5px 0 43px;
     /* border-bottom: 1px solid #999fb3; */
 }
 
 .single-quizz-txt-2 h3 {
     font-size:18px;
+    font-weight: 900;
     color: #CFB991;
     text-transform: initial;
     line-height: 1.8; 
     text-decoration: none;   
 }
-
 
 
 .single-quizz-txt-2 p {
@@ -320,7 +286,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #CFB991;}
     font-size: 16px;
     color: #727275;
     padding: 2px 0 33px;
-    /* border-bottom: 1px solid #999fb3; */
 }
 
 .single-quizz-txt-3 a {
@@ -336,7 +301,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #CFB991;}
     margin: 35px 0;
 }
 .single-quizz-add-info h3 {
-    color: #636a82;
+    color: #727275;
     font-size: 16px;
     text-transform: capitalize;
 }
@@ -347,14 +312,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #CFB991;}
 }
 
 .guides {
-    border-top: 2px solid #b2c1ce;
+    border-top: 2px solid #E5EBF1;
 }
 .single-quizz-add-info p {font-weight:  300;border:  0;padding: 0;margin-top: 3px;}
-/*.single-about-txt*/
 
-/*.single-about-img */
 .single-quizz-img{position: relative;box-shadow: 0 5px 20px rgba(78, 75, 71, 0.4);}
-
 
 .quizz-list-icon{
     display: flex;
@@ -365,7 +327,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #CFB991;}
     left: 0;
     width: 109%;
     height: 90px;
-    background: #1f2c6c;
+    background: #3b3a3a;
 }
 /*.ab-list-icon */
 .quizz-list-icon ul {
@@ -374,11 +336,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #CFB991;}
 .quizz-list-icon  ul li a {
     padding-right: 22px;
     cursor:pointer;
-    color: #fff;
+    color: white;
 }
 .quizz-list-icon ul li a {
     cursor: pointer;
-    color: #fff;
+    color: white;
     display: inline-block;
     border: 2px solid;
     margin-left: 20px;
@@ -440,11 +402,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 /*-------------------------------------
         6.  Skills
 --------------------------------------*/
-.skills {
-    
-}
-.skill-content{padding: 50px 0 80px;}
-.single-skill-content{padding-top: 100px;}
+
 .section-heading h2 {
     font-size: 24px;
     font-weight: 600;
@@ -455,60 +413,7 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
 .single-progress-txt {
     display: flex;
 }
-.single-progress-txt h3 {
-    width: 10%;
-    color: #a606c3;
-    position: relative;
-    top: 6px;
-    left: 20px;
-}
-.barWrapper {
-    font-weight: 400;
-    font-size: 16px;
-    text-transform: uppercase;
-}
-.progress {
-    border-radius:3px;
-    overflow: visible;
-    background: #e6ecf3;
-    height:8px;
-    margin-top: 15px;
-    width: 85%;
-    margin-bottom: 37px;
-}
-.progress-bar {
-   background: #b636ff;
-    border-radius: 3px;
-   -webkit-transition: width 1.5s ease-in-out;
-   -ms-transition: width 1.5s ease-in-out;
-   -moz-transition: width 1.5s ease-in-out;
-   -o-transition: width 1.5s ease-in-out;
-   transition: width 1.5s ease-in-out;
-}
-.tooltip{
-   position:relative;
-   float:right;
-}
-.tooltip > .tooltip-inner {
-   background-color: transparent;
-   padding: 1px 5px;
-   color: #b636ff;
-   font-weight: 500;
-   font-size: 12px;
-   border-radius: 0;
-}
-.popOver + .tooltip > .tooltip-arrow {
-   border-left: 6px solid transparent;
-   border-right: 6px solid transparent;
-   border-top: 6px solid #fff;
-   bottom: -1px;
-   transform: translateX(-50%);
-   margin-left: 0;
-}
 
-/*-------------------------------------
-        7. steps
--------------------------------------*/
 .steps {
     padding: 50px 0 100px;
     border-top: 3px solid #CFB991;
@@ -930,4 +835,3 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     0%   {bottom:0px;}
     100%  {bottom:7px;}
 }
-/*========================Thank you=================
