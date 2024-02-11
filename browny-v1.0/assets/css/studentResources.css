@@ -61,7 +61,6 @@ html,body{
 	position: relative;
 }
 
-
 .fix{position: relative;clear: both;}
 
 /*-------------------------------------
@@ -155,10 +154,6 @@ nav.navbar.bootsnav .navbar-toggle i{color: #CFB991;}
 /*.navbar-toggle */
 
 
-
-/*-------------------------------------
-        3.  Welcome
---------------------------------------*/
 .welcome{
     display: flex;
     align-items: center;
@@ -242,7 +237,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #CFB991;}
 }
 .single-quizz-txt p {
     font-size: 16px;
-    color: #727275dd;
+    color: #3c4258;
     padding: 5px 0 43px;
     /* border-bottom: 1px solid #999fb3; */
 }
@@ -259,7 +254,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #CFB991;}
 
 .single-quizz-txt-2 p {
     font-size: 16px;
-    color: #727275;
+    color: #3c4258;
     padding: 10px 0 5px;
 }
 
@@ -284,7 +279,7 @@ nav.navbar.bootsnav .navbar-toggle i{color: #CFB991;}
 
 .single-quizz-txt-3 p {
     font-size: 16px;
-    color: #727275;
+    color: #3c4258;
     padding: 2px 0 33px;
 }
 
@@ -297,11 +292,11 @@ nav.navbar.bootsnav .navbar-toggle i{color: #CFB991;}
 
 
 .single-quizz-add-info {
-    border-top: 1px solid #999fb3;
+    border-top: 1px solid #3c4258;
     margin: 35px 0;
 }
 .single-quizz-add-info h3 {
-    color: #727275;
+    color: #3c4258;
     font-size: 16px;
     text-transform: capitalize;
 }
@@ -393,14 +388,14 @@ span.single-timeline-horizontal.spacial-horizontal-line {width: 88px;}
     text-transform: uppercase;
 }
 .timeline-content h5 {
-    color: #999fb3;
+    color: #3c4258;
     font-size: 14px;
     font-weight: 300;
     margin: 18px 0 20px;
 }
 .main-timeline .description {
     font-size: 15px;
-    color: #727275;
+    color: #3c4258;
     margin-top: 10px;
 }
 .main-timeline .timeline-content.right{
